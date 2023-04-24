@@ -398,3 +398,64 @@ footer {
     margin-bottom: 20px;
     display: block;
 }
+
+/* portfolio */
+.porto{
+	background:url(https://www.dandcalabama.com/wp-content/uploads/2023/03/D-C-Alabama-Landscape-Inc-1414998781.jpg)no-repeat;
+	padding:50px 0;
+}
+.porto h2{
+	color: #FFEA00;
+	background: #424146;
+	padding: 10px 60px 10px 20px;
+	font-size: 2em;
+	text-transform: uppercase;
+	font-weight: 600;
+	float: left;
+}
+.wrap {
+    width: 80%;
+    margin: 0 auto;
+}
+.clear {
+    clear: both;
+}
+.portfolio-top {
+    padding: 5% 0 0;
+}
+.portfolio-top h3 {
+    text-align: center;
+    font-size: 2.5em;
+    color: #424147;
+    font-weight: 600;
+    font-family: "Century Gothic";
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+.portfolio-top h5 {
+    text-align: center;
+    font-size: 1.5em;
+    color: #424147;
+    font-weight: 600;
+    font-family: "Century Gothic";
+    margin-bottom: 60px;
+}
+#filters {
+    padding: 0% 10% 5% 10%;
+    list-style: none;
+}
+#filters li span.active {
+    background: #ffea00;
+    color: #000;
+}
+#filters li span {
+    display: block;
+    padding: 10px 30px;
+    text-decoration: none;
+    color: #666;
+    cursor: pointer;
+    font-size: 1.5em;
+}
+#filters li {
+    float: left;
+}
