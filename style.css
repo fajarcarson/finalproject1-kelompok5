@@ -412,6 +412,7 @@ footer {
 	text-transform: uppercase;
 	font-weight: 600;
 	float: left;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .wrap {
     width: 80%;
@@ -518,6 +519,11 @@ h5.leave {
     background: #000;
     float: right;
 }
+.submit:hover {
+    background-color: yellow;
+    color: black;
+    transition: 1s;
+}
 .span_1_of_about {
     width: 32%;
 }
@@ -556,4 +562,58 @@ ol, ul {
 li {
     display: list-item;
     text-align: -webkit-match-parent;
+}
+
+/* ABOUT US */
+.aboutus{
+	background:url(https://cdn.pixabay.com/photo/2021/03/08/03/52/double-beds-6078049_960_720.jpg);
+	padding:50px 0;
+}
+.aboutus h2{
+	color: #FFEA00;
+	background: #424146;
+	padding: 10px 60px 10px 20px;
+	font-size: 2em;
+	text-transform: uppercase;
+	font-weight: 600;
+	float: left;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.aboutus-container{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.aboutus-image{
+    margin-left: 20px;
+    margin-right: 20px;
+    float: left;
+}
+.aboutus-judul{
+    display: block;
+    font-family: "Candara Light";
+    font-size: 30px;
+    color: #424146;
+}
+.aboutus-subjudul{
+    display: block;
+    font-family: "Maven Pro";
+    font-size: 18px;
+    color: #424146;
+    text-align: justify;
+    font-weight: bold;
+}
+.aboutus-content{
+    font-family: "Maven Pro";
+    font-size: 16px;
+    color: #424146;
+    text-align: justify;
+    margin-right: 10px;
+}
+.aboutus-content2{
+    font-family: "Maven Pro";
+    font-size: 16px;
+    color: #424146;
+    text-align: justify;
+    margin-left: 10px;
+    display: block;
 }
