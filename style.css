@@ -42,9 +42,9 @@ header {
     color: rgb(241, 157, 0);
 }
 
-.flexible {
+/* .flexible {
     display: flex;
-}
+} */
 
 /* .boxjudul{
     margin-right: 150px;
@@ -650,14 +650,16 @@ ol, ul {
 }
 .aboutus-content{
     font-family: "Maven Pro";
-    font-size: 16px;
+    font-size: 18px;
+    font-weight: bold;
     color: #424146;
     text-align: justify;
     margin-right: 10px;
+    display: block;
 }
 .aboutus-content2{
     font-family: "Maven Pro";
-    font-size: 16px;
+    font-size: 18px;
     color: #424146;
     text-align: justify;
     margin-left: 10px;
