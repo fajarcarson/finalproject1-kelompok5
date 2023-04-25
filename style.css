@@ -561,7 +561,6 @@ li {
     text-align: -webkit-match-parent;
 }
 
-<<<<<<< HEAD
 /* edit todos */
 .todo-input {
     width: 250px;
@@ -610,7 +609,7 @@ ol, ul {
 .footer-top {
     background: #414146;
     padding: 2% 0;
-=======
+}
 /* ABOUT US */
 .aboutus{
 	background:url(https://cdn.pixabay.com/photo/2021/03/08/03/52/double-beds-6078049_960_720.jpg);
@@ -668,5 +667,4 @@ ol, ul {
     border-radius: 50%;
     border-color: yellow;
     border: 5px solid yellow;
->>>>>>> 501d2f442d351f72c9fb614ea6d8f5717873166f
 }
