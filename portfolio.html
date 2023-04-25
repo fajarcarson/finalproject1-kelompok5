@@ -14,63 +14,6 @@
     <link href='http://fonts.googleapis.com/css?family=Karla' rel='stylesheet' type='text/css'>
     <script type="text/javascript" src="js/jquery.min.js"></script>
     <script type="text/javascript" src="js/jquery.mixitup.min.js"></script>
-    <script type="text/javascript">
-        $(function () {
-
-            var filterList = {
-
-                init: function () {
-
-
-                    $('#portfoliolist').mixitup({
-                        targetSelector: '.portfolio',
-                        filterSelector: '.filter',
-                        effects: ['fade'],
-                        easing: 'snap',
-                        onMixEnd: filterList.hoverEffect()
-                    });
-
-                },
-
-                hoverEffect: function () {
-
-                    $('#portfoliolist .portfolio').hover(
-                        function () {
-                            $(this).find('.label').stop().animate({ bottom: 0 }, 200, 'easeOutQuad');
-                            $(this).find('img').stop().animate({ top: -30 }, 500, 'easeOutQuad');
-                        },
-                        function () {
-                            $(this).find('.label').stop().animate({ bottom: -40 }, 200, 'easeInQuad');
-                            $(this).find('img').stop().animate({ top: 0 }, 300, 'easeOutQuad');
-                        }
-                    );
-
-                }
-
-            };
-
-            filterList.init();
-
-
-        });	
-    </script>
-    <script src="js/jquery.magnific-popup.js" type="text/javascript"></script>
-    <link href="css/magnific-popup.css" rel="stylesheet" type="text/css">
-    <script>
-        $(document).ready(function () {
-            $('.popup-with-zoom-anim').magnificPopup({
-                type: 'inline',
-                fixedContentPos: false,
-                fixedBgPos: true,
-                overflowY: 'auto',
-                closeBtnInside: true,
-                preloader: false,
-                midClick: true,
-                removalDelay: 300,
-                mainClass: 'my-mfp-zoom-in'
-            });
-        });
-    </script>
 </head>
 
 
@@ -178,7 +121,7 @@
                 <p><img src="assets/icons/bullhorn-solid.svg" alt="" width="30px" height="30px"
                         style="padding-top: 10px;"> Best Service</p>
                 <div class="benefits-content">Perbaikan dan pembersihan terjamin maksimal</div>
-            </div> -->
+            </div> 
         </div>
         <br><br><br><br>
     </div>

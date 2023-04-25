@@ -557,3 +557,53 @@ li {
     display: list-item;
     text-align: -webkit-match-parent;
 }
+
+/* edit todos */
+.todo-input {
+    width: 250px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    padding: 10px;
+    margin-right: 10px;
+    font-size: 1rem;
+}
+.add-button {
+    background-color: #ffe600;
+    color: #fff;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    padding: 7px;
+    font-size: 1.2rem;
+}
+h1 {
+    color: #080808;
+    font-size: 3rem;
+}
+
+.container {
+    min-width: 650px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+.todo-form {
+    margin: 40px 0px;
+}
+.todo-items {
+    min-width: 350px;
+}
+ul {
+    list-style-type: none;
+}
+ol, ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.footer-top {
+    background: #414146;
+    padding: 2% 0;
+}
