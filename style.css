@@ -175,10 +175,7 @@ header {
     visibility: hidden;
 }
 
-table,
-td,
-tr,
-th {
+.table-index,.td-index,.tr-index,.th-index {
     border: 1px solid #4241478d;
 }
 
@@ -616,4 +613,9 @@ li {
     text-align: justify;
     margin-left: 10px;
     display: block;
+}
+.aboutus-photo{
+    border-radius: 50%;
+    border-color: yellow;
+    border: 5px solid yellow;
 }
