@@ -1,11 +1,13 @@
 function hover_card(me) {
     me.style.transform = "scale(1.05)";
-    me.style.boxShadow = "0 .5rem 1rem rgb(109, 196, 224)";
+    me.style.boxShadow = "0 .5rem 2rem rgb(109, 196, 224)";
+    me.style.transition = "1s";
 }
 
 function out_card(me) {
     me.style.transform = "scale(1)";
-    me.style.boxShadow = "0 .5rem 1rem rgba(0,0,0,.15)";
+    me.style.boxShadow = "0 .5rem 2rem rgba(0,0,0,.15)";
+    me.style.transition = "1s";
 }
 
 let popup = document.getElementById("xPopup");
