@@ -668,3 +668,77 @@ ol, ul {
     border-color: yellow;
     border: 5px solid yellow;
 }
+
+/* BLOG */
+.blog{
+	background:url(https://images.unsplash.com/photo-1543936014-81db3ef51ba2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1787&q=80);
+	padding:50px 0;
+}
+.blog h2{
+	color: #FFEA00;
+	background: #424146;
+	padding: 10px 60px 10px 20px;
+	font-size: 2em;
+	text-transform: uppercase;
+	font-weight: 600;
+	float: left;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.blog-container{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.blog-sidebar{
+    float: left;
+    margin-right: 80px;
+}
+.blog-list{
+    background-color: #414146;
+    padding-top: 20px;
+    padding-bottom: 80px;
+    padding-left: 30px;
+    padding-right: 10px;
+    margin-bottom: 30px;
+}
+.blog-input{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 230px;
+    border-radius: 10px;
+    border: none;
+}
+.blog-input:hover{
+    color: black;
+    box-shadow:  0 0 8pt 0.8pt yellow;
+    transition: 1s;
+}
+.blog-input:focus{
+    outline: none;
+}
+.icon-search{
+    color: #414146;
+    position: absolute;
+    margin-left: 230px;
+    margin-top: 4px;
+    font-size: 10px;
+}
+.blog-posts p{
+    font-family: Maven Pro;
+    font-size: 15px;
+}
+.posts-image-small{
+    width: 130px;
+    height: 90px;
+    float: left;
+    padding-right: 10px;
+}
+.no-float{
+    float: none;
+}
+.a-categories{
+    color: white;
+}
+.a-categories:hover{
+    color: yellow;
+}
