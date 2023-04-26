@@ -745,7 +745,7 @@ ol, ul {
 }
 .blog-sidebar{
     float: left;
-    margin-right: 80px;
+    margin-right: 20px;
 }
 .blog-list{
     background-color: #414146;
@@ -762,7 +762,7 @@ ol, ul {
     padding-top: 5px;
     padding-bottom: 5px;
     padding-left: 10px;
-    padding-right: 230px;
+    padding-right: 250px;
     border-radius: 10px;
     border: none;
 }
@@ -803,5 +803,32 @@ ol, ul {
 .clearfix{
     content: "";
     clear: both;
-    display: table;
-  }
+}
+.card-news {
+    background-color: yellow;
+    border-color: yellow;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    width: 400px;
+    height: 480px;
+    margin-bottom: 35px;
+    margin-right: 10px;
+    margin-left: 15px;
+}
+.card-news-title {
+    font-family: Candara Light;
+    font-size: 22px;
+    color: black;
+    padding-left: 15px;
+    padding-right: 30px;
+    font-weight: bold;
+}
+
+.card-news-content {
+    padding-left: 15px;
+    padding-right: 10px;
+    padding-bottom: 30px;
+    font-family: Maven Pro;
+    color: #424147;
+    text-align: justify;
+}
