@@ -42,9 +42,9 @@ header {
     color: rgb(241, 157, 0);
 }
 
-/* .flexible {
+.flexible {
     display: flex;
-} */
+}
 
 /* .boxjudul{
     margin-right: 150px;
@@ -747,3 +747,8 @@ ol, ul {
 .a-categories:hover{
     color: yellow;
 }
+.clearfix{
+    content: "";
+    clear: both;
+    display: table;
+  }
