@@ -766,6 +766,20 @@ ol, ul {
     border-radius: 10px;
     border: none;
 }
+.blog-boxtags{
+    font-family: Candara Light;
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+}
+.blog-tags{
+    display: flex;
+}
+.blog-isitag{
+    background-color: yellow;
+    margin: 5px;
+    padding: 5px;
+}
 .blog-input:hover{
     color: black;
     box-shadow:  0 0 8pt 0.8pt yellow;
