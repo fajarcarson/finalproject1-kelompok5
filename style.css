@@ -846,3 +846,28 @@ ol, ul {
     color: #424147;
     text-align: justify;
 }
+.aboutus-popup-card {
+    width: 600px;
+    background-color: white;
+    border: 3px solid #2facc0;
+    border-radius: 3px;
+    position: absolute;
+    top: 160%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    /* visibility: hidden; */
+}
+.aboutus-judulpopup{
+    font-family: Candara Light;
+    font-size: 30px;
+    color: #414146;
+    font-weight: bold;
+}
+.aboutus-listpegawai{
+    font-family: Maven Pro;
+    font-size: 20px;
+    
+}
