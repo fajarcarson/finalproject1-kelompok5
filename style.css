@@ -846,6 +846,11 @@ ol, ul {
     color: #424147;
     text-align: justify;
 }
+.blog-update{
+    font-family: Maven Pro;
+    font-size: 20px;
+    color: yellow;
+}
 .aboutus-popup-card {
     width: 600px;
     background-color: white;
