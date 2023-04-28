@@ -245,17 +245,17 @@
         </div>
         <br><br>
     </footer>
-    
-<script src="home.js"></script>
-<script>
-// NEWS UPDATE USE FILTER
-const dated = [1,5,10,15,25,30];
 
-document.getElementById("blog-updatee").innerHTML = dated.filter(checkDate);
+    <script src="home.js"></script>
+    <script>
+        // NEWS UPDATE USE FILTER
+        const dated = [1,5,10,15,25,30];
 
-function checkDate(item) {
-  return item >= 4;
-}
-</script>
+        document.getElementById("blog-updatee").innerHTML = dated.filter(checkDate);
+
+        function checkDate(item) {
+        return item >= 4;
+        }
+    </script>
 </body>
 </html>
