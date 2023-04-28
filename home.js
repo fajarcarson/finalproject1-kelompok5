@@ -19,16 +19,6 @@ function closePopup() {
     popup.classList.remove("open-popup");
 }
 
-// NEWS UPDATE USE FILTER
-const dated = [1,5,10,15,25,30];
-
-document.getElementById("blog-updatee").innerHTML = dated.filter(checkDate);
-
-function checkDate(item) {
-  return item >= 4;
-}
-
-
 /** todos **/
 const todoForm = document.querySelector('.todo-form');
 const todoInput = document.querySelector('.todo-input');
